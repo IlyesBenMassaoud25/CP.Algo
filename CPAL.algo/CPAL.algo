@@ -1,0 +1,16 @@
+Read str
+nvow = 0
+nwords = 0 
+i = 1
+While i<= length [str]
+   while str[i] <> ' ' then
+   if str[i] in { 'a' , 'e' , 'i' , 'o' , 'u' , 'y'} then  
+      nvow = nvow + 1
+      end
+      i = i plus 1
+    end  
+    nwords = nwords + 1
+    i = i + 1 
+
+    print ('The number of words in the sentence is', nwords)
+    print ('The number of vowel in the sentence is' , nvow)
